@@ -1,10 +1,12 @@
-headline: The perfect template to showcase your awesome product and service.
+headline: Crafting awesome products
 
-body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam.
+body: |
+  CraftProducts provides tools for product teams to clearly understand customers, map user experience journeys, communicate consistent vision across the board.  
+  Conceptualize & design better products collaboratively.
 
 button1:
-  label: Free Trial
-  to: '/#'
+  label: Use for free
+  to: 'http://app.craftproducts.co'
 
 button2:
   label: Learn More

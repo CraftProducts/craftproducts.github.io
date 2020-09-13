@@ -1,59 +1,54 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
   siteMetadata: {
-    title: `Woo - Free Responsive HTML5/CSS3 Template`,
+    title: `CraftProducts - Craft awesome products`,
     author: {
-      name: `Joe Bloggs`,
+      name: `Team CraftProducts`,
     },
-    description: `Woo is a clean, modern, landing page site template.`,
+    description: `CraftProducts provides tools for product teams to clearly understand customers, map user experience journeys, communicate consistent vision across the board and conceptualize & design better products collaboratively.`,
 
-    /* Choose and arrange the sections to be displayed on the landing page */
     sections: [
       `hero`,
       `features`,
-      `pricing`,
+      // `pricing`,
       `call-to-action`,
-      `screenshots`,
-      `testimonials`,
-      `subscribe`
+      // `screenshots`,
+      // `testimonials`,
+      // `subscribe`
     ],
 
     /* Configure the navigation menu */
     menuItems: [
-      {path: 'features', label: 'Features'},
-      {path: 'pricing', label: 'Pricing'},
-      {path: 'screenshots', label: 'Screenshots'},
-      {path: 'testimonials', label: 'Testimonials'},
-      {path: 'subscribe', label: 'Subscribe'},
+      { path: 'features', label: 'Features' },
+      // {path: 'pricing', label: 'Pricing'},
+      // { path: 'screenshots', label: 'Screenshots' },
+      // { path: 'testimonials', label: 'Testimonials' },
+      // {path: 'subscribe', label: 'Subscribe'},
     ],
 
-    /* Provide social media accounts. Remove or add new services. (The value 'fa' is the name of FontAwesome icon to display. Choose from here: https://fontawesome.com/cheatsheet/free/brands ) */
     social: [
-      { service: `Facebook`,
-        url : `https://facebook.com/styleshout`,
-        fa: `facebook` },
-      { service: `Twitter`,
-        url : `https://twitter.com/styleshout`,
-        fa: `twitter` },
-      { service: `GitHub`,
-        url : `https://github.com/desmukh/gatsby-starter-woo`,
-        fa: `github` },
+      {
+        service: `Facebook`,
+        url: `https://www.facebook.com/CraftProductz`,
+        fa: `facebook`
+      },
+      {
+        service: `Twitter`,
+        url: `https://twitter.com/craftproductz`,
+        fa: `twitter`
+      },
+      {
+        service: `GitHub`,
+        url: `https://github.com/craftproducts`,
+        fa: `github`
+      },
     ],
 
-    /* Path to favicon and logo (located inside the 'static' folder) */
     favicon: `favicon.png`,
     logo: `/images/logo.png`,
 
-    /* Logo and text to show in footer */
     footer: {
-      logo: `/images/footer-logo.png`,
-      text: `This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.`,
+      logo: `/images/logo.png`,
+      text: `CraftProducts provides tools for product teams to clearly understand customers, map user experience journeys, communicate consistent vision across the board and conceptualize & design better products collaboratively.`,
     },
 
     /* Address and contact info to show in footer */
@@ -64,9 +59,9 @@ module.exports = {
     },
     contacts: [
       { text: `647.343.8234`, url: `tel:6473438234` },
-      { text: `123.456.7890`, url: `tel:1234567890`},
-      { text: `someone@woosite.com`, url: `mailto:someone@woo.com`},
+      { text: `123.456.7890`, url: `tel:1234567890` },
+      { text: `someone@woosite.com`, url: `mailto:someone@woo.com` },
     ],
   },
-  plugins: [ `gatsby-plugin-anchor-links`, `gatsby-plugin-smoothscroll`, `react-scrollspy` ],
+  plugins: [`gatsby-plugin-anchor-links`, `gatsby-plugin-smoothscroll`, `react-scrollspy`],
 }

@@ -1,20 +1,22 @@
 -
   name: design
-  title: Simple, Clean and Modern Design.
-  body: Lorem ipsum dolor sit amet, ea eum labitur scripserit, illum complectitur deterruisset at pro. Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt. Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
-  image: 'images/feature-image-1.png'
+  title: Tools for product owners
+  body: |
+    Whether you want to prepare a business model, map user journey or simply prepare a story board, find the right template from the many templates that are available out of the box.
+    Can't find a template to meet your requirements, simply create a custom template and use it. 
+  image: 'images/app_landing_page.png'
 -
-  name: responsive
-  title: Fully Responsive.
-  body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam.Our library is continually refreshed with the latest on web technology so you'll never fall behind. Quis nostrum exercitationem ullam corporis suscipit laboriosam.
-  image: 'images/feature-image-2.png'
+  name: value-preposition
+  title: Value propositions models
+  body: Templates for documenting value proposition of your product or service
+  image: 'images/value_proposition_models.png'
 -
-  name: cross-browser
-  title: Cross-Browser Compatible.
-  body: Lorem ipsum dolor sit amet, ea eum labitur scripserit, illum complectitur deterruisset at pro. Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt. Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
-  image: 'images/feature-image-3.png'
+  name: software-delivery
+  title: Software delivery tools
+  body: Templates to help product teams to conceptualize better product design and structured delivery.
+  image: 'images/software_delivery.png'
 -
-  name: video
-  title: Video Support.
-  body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam. No soleat fabulas prodesset vel, ut quo solum dicunt. Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
-  vimeo: 14592941
+  name: datatypes
+  title: Support for multiple datatypes.
+  body: Capture data ranging from simple text block to list, matrix and much more.
+  image: 'images/datatypes.png'
