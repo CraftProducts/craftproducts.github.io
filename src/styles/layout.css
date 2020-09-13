@@ -86,7 +86,11 @@ header .logo a {
    outline: none;
    width: 164px;
 }
-
+header .blog-link {
+   color: #fff;
+   font-weight: bold;
+   margin-left: 20pt !important;
+}
 /* header social */
 header .header-social {
    font-size: 20px;

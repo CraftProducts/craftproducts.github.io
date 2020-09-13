@@ -14,44 +14,47 @@ export default function () {
 
 
   let showStyle = null
-  if (isVisible){
-    showStyle = {transform: 'scaleY(1)'}
-  }else{
+  if (isVisible) {
+    showStyle = { transform: 'scaleY(1)' }
+  } else {
     showStyle = null
   }
 
-  return(
+  return (
     <nav id="nav-wrap">
       <button
         id="toggle-btn"
         href="/#"
         title="Menu"
         onClick={() => setVisibility(!isVisible)}
-        >
-        <FontAwesomeIcon icon={ faBars } />
+      >
+        <FontAwesomeIcon icon={faBars} />
       </button>
 
       <Scrollspy
         className="nav mobile"
         style={showStyle}
-        items={ menuItems.map(a => a.path) }
+        items={menuItems.map(a => a.path)}
         currentClassName="current"
         offset={-100} >
 
         {menuItems.map((value, index) => {
           return (
             <li key={index}>
-              <button onClick={() =>
-                {
-                  scrollTo('#' + value.path)
-                  setVisibility(0)
-                }
+              <button onClick={() => {
+                scrollTo('#' + value.path)
+                setVisibility(0)
+              }
               }>
                 {value.label}
               </button>
             </li>
           )
         })}
+
+        <li key="blog">
+          <a target="blank" class="blog-link" href="https://blog.craftproducts.co"> Blog </a>
+        </li>
 
       </Scrollspy>
     </nav>
